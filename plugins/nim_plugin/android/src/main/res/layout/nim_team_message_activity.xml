@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:elevation="0dp">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextAppearance="@style/Toolbar.TitleText" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/iv_topback"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingLeft="5dp"
+            android:scaleType="center"
+            android:src="@drawable/nim_topback"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/color_333333"
+            android:textSize="17sp"
+            android:id="@+id/tv_title"
+            android:textStyle="bold"
+            android:drawablePadding="6.5dp"
+            android:layout_height="wrap_content"/>
+
+
+        <ImageView
+            android:id="@+id/iv_modre"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingRight="5dp"
+            android:scaleType="center"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/nim_more_icon"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:id="@+id/tv_infomessage"
+            android:textColor="#ACAEBC"
+            android:textSize="11sp"
+            android:gravity="center"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+
+<LinearLayout
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+
+
+    <TextView
+        android:id="@+id/tv_file"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/cp_team_file"
+        android:text="文件"
+        android:gravity="center"
+        android:drawablePadding="9dp"
+        android:textSize="11sp"
+        android:textColor="#ABADBB"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_meeting"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/cp_team_metting"
+        android:text="Meeting"
+        android:gravity="center"
+        android:drawablePadding="9dp"
+        android:textSize="11sp"
+        android:textColor="#ABADBB"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_tiku"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/cp_team_tiku"
+        android:text="题库"
+        android:gravity="center"
+        android:drawablePadding="9dp"
+        android:textSize="11sp"
+        android:textColor="#ABADBB"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_shop"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/cp_team_shudian"
+        android:text="书店"
+        android:gravity="center"
+        android:drawablePadding="9dp"
+        android:textSize="11sp"
+        android:textColor="#ABADBB"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tv_people"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:drawableTop="@drawable/cp_team_quanyuan"
+        android:text="全员"
+        android:gravity="center"
+        android:drawablePadding="9dp"
+        android:textSize="11sp"
+        android:textColor="#ABADBB"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/invalid_team_tip"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:background="@drawable/nim_message_activity_top_tip"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/invalid_team_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/team_invalid_tip"
+            android:textColor="@color/color_yellow_796413"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/message_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+
+</LinearLayout>

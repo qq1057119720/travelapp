@@ -1,6 +1,6 @@
 class Config {
   ///包名
-  static const APP_PACKAGE_NAME = "com.guox.divination_app";
+  static const APP_PACKAGE_NAME = "com.guox.travelapp";
   ///国际化本地key
   static const LOCAL_THEME_LOCALE_KEY=APP_PACKAGE_NAME+"local_theme_locale_key";
 

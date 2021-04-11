@@ -11,6 +11,9 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
 import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
@@ -22,7 +25,6 @@ public class FluttertoastPlugin implements MethodCallHandler {
 
     private Context ctx;
     private Toast toast;
-
     private FluttertoastPlugin(Context context) {
         ctx = context;
     }

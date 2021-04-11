@@ -7,7 +7,7 @@
 // tartget:  xxx
 //
 
-import 'package:divination_app/city_pickers/mod/inherit_process.dart';
+import 'package:travelapp/city_pickers/mod/inherit_process.dart';
 import 'package:flutter/material.dart';
 
 class CityPickerRoute<T> extends PopupRoute<T> {

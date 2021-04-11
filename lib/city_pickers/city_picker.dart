@@ -1,11 +1,11 @@
 import 'dart:async';
 
-import 'package:divination_app/city_pickers/base/base.dart';
-import 'package:divination_app/city_pickers/cities_selector/cities_selector.dart';
-import 'package:divination_app/city_pickers/cities_selector/utils.dart';
-import 'package:divination_app/city_pickers/full_page/full_page.dart';
-import 'package:divination_app/city_pickers/mod/picker_popup_route.dart';
-import 'package:divination_app/city_pickers/utils/index.dart';
+import 'package:travelapp/city_pickers/base/base.dart';
+import 'package:travelapp/city_pickers/cities_selector/cities_selector.dart';
+import 'package:travelapp/city_pickers/cities_selector/utils.dart';
+import 'package:travelapp/city_pickers/full_page/full_page.dart';
+import 'package:travelapp/city_pickers/mod/picker_popup_route.dart';
+import 'package:travelapp/city_pickers/utils/index.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';

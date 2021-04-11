@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@color/transparent"
+    android:orientation="vertical">
+
+<View
+    android:layout_width="match_parent"
+    android:id="@+id/v_base_view"
+    android:background="#88000000"
+    android:layout_height="match_parent"/>
+    <LinearLayout
+        android:id="@+id/ll_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_close"
+        android:layout_marginBottom="-10dp"
+        android:background="@drawable/chat_finish_course_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="18dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="课程将在"
+                android:textColor="#ffacaebc"
+                android:textSize="13sp"
+                />
+            <TextView
+                android:id="@+id/tv_day"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="后结束"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_jiesuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结算课程"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="43dp"
+            android:textColor="#ffff0000"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_close"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:text="知道了"
+        android:textSize="12sp"
+        android:paddingTop="18dp"
+        android:gravity="top|center"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+</RelativeLayout>

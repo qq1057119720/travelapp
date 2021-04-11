@@ -2,7 +2,7 @@
 class GlobalConstants {
 
   ///包名
-  static const APP_PACKAGE_NAME = "com.quickin.campusbar";
+  static const APP_PACKAGE_NAME = "com.southdgj.travelapp";
 
   ///登陆次数
   static const LOGIN_NUMBER_KEY = "one_fist_login_key";

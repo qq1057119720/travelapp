@@ -379,4 +379,21 @@ class BaseTools {
       return "hyjxk";
     }
   }
+  static Future unitListImage2Base64(Uint8List pngBytes) async {
+    return base64Encode(pngBytes);
+  }
+
+  static String getVipLevel(int level){
+    if(level==2){
+      return "会员";
+    }else if(level==3){
+      return "代理";
+    }else if(level==4){
+      return "高级代理";
+    }else if(level==5){
+      return "总代理";
+    }else{
+      return "游客";
+    }
+  }
 }

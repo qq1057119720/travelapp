@@ -7,8 +7,8 @@
 // target:  处理locationCode相关
 //
 
-import 'package:divination_app/city_pickers/city_pickers.dart';
-import 'package:divination_app/city_pickers/modal/base_citys.dart';
+import 'package:travelapp/city_pickers/city_pickers.dart';
+import 'package:travelapp/city_pickers/modal/base_citys.dart';
 
 class Location {
   Map<String, dynamic> citiesData;

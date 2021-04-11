@@ -7,7 +7,7 @@
 // target: 开放给city_pickers直接调用的工具方法
 //
 
-import 'package:divination_app/city_pickers/city_pickers.dart';
+import 'package:travelapp/city_pickers/city_pickers.dart';
 
 import 'location.dart';
 

@@ -49,7 +49,7 @@ class UnifiedThemeStyles {
   static Color defultImgError = PLACEHOLDER_GRAY;
 
   ///常用颜色
-  static const Color _VIOLET = const Color(0xFFFFDEA7);
+  static const Color _VIOLET = const Color(0xFF4A90E2);
   static const Color MIDDLE_VIOLET = const Color(0xFF431CA7);
   static const Color LIGHT_VIOLET = const Color(0xE5CEED);
   static const Color GREEN = const Color(0xFF11BB0D);

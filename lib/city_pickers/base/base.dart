@@ -8,8 +8,8 @@
  */
 import 'dart:async';
 
-import 'package:divination_app/city_pickers/city_pickers.dart';
-import 'package:divination_app/city_pickers/modal/base_citys.dart';
+import 'package:travelapp/city_pickers/city_pickers.dart';
+import 'package:travelapp/city_pickers/modal/base_citys.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 

@@ -3,43 +3,55 @@ class NetUrlConstant {
   static const REGISTER="user/register";
   static const SEND_SMS_CODE="user/sendSmsCode";
   static const USER_LOGIN="user/login";
-  static const GET_VIP_TYPE_LIST="user/getVipTypeList";
-  static const OPEN_VIP="user/openVip";
-  static const GET_USER_VIP="user/getUserVip";
-  static const GET_USER_INFO="user/getUserInfo";
-  static const GETV_VIP_RECORD_LIST="user/getvVipRecordList";
-  static const GET_FREE_DIVINATION_RECORD_COUNT="user/getFreeDivinationRecordCount";
-  static const ADD_FREE_DIV="user/addFreeDiv";
-
-  static const GET_LABLE_LIST="divination/getLableList";
-  static const GET_DIVINATION="divination/divination";
-  static const checkDivination="divination/checkDivination";
-  static const UPDATE_DIVINATION_RECORD="divination/updateDivinationRecord";
-  static const GET_DIVINATION_RECORD_LIST="divination/getDivinationRecordList";
-  static const GET_DIVINATION_RECORD_COUNT="divination/getDivinationRecordCount";
-  static const ANALYSE_LABLE="divination/analyseLable";
-  static const FEEDBACK_LABLE="divination/feedbackLable";
-  static const ANALYSE_OFTEN="divination/analyseOften";
-  static const ANALYSE_TYPE="divination/analyseType";
-  static const ANALYSE_YEAR="divination/analyseYear";
-  static const ANALYSE_MONTH="divination/analyseMonth";
-  static const ANALYSE_DAY="divination/analyseDay";
-  static const GET_NO_FEED_BACK_COUNT="divination/getNoFeedBackCount";
-  static const analyse24Hour="divination/analyse24Hour";
-  static const analyse12Hour="divination/analyse12Hour";
-  static const CLICK_LABLE="divination/clickLable";
-  static const DELETE_DIVINATION_RECORD="divination/deleteDivinationRecord";
-  static const SEARCH_LABLE_LIST="divination/searchLableList";
+  static const USER_CODE_LOGIN="user/coselogin";
+  static const GET_TRAVEL_CATEGORY_LIST="goods/getTravelCategoryList";
+  static const GET_TRAVEL_RECOMMEND_GOODS="goods/getTravelRecommendGoods";
+  static const GET_HOME_COMMENT_LIST="goods/getHomeCommentList";
+  static const GET_TRAVEL_GOODS_DETAIL="goods/getTravelGoodsDetail";
+  static const GET_TRAVEL_GOODS_LIST="goods/getTravelGoodsList";
+  static const ADD_RECEIVER_ADDRESS="user/addReceiverAddress";
+  static const GET_RECEIVER_ADDRESS_LIST="user/getReceiverAddressList";
+  static const CREATE_ORDER="goods/createOrder";
   static const ALIPAY="pay/alipay";
   static const WXPAY="pay/wxpay";
-  static const ANALYSE_BEST_HOUR="divination/analyseBestHour";
-  static const WX_LOGIN="user/wxlogin";
-  static const iospay="pay/iospay";
-  static const GET_ANNOUNCEMENT_LIST="user/getAnnouncementList";
-  static const GET_USER_INVITE_COUNT="user/getUserInviteCount";
-  static const exchangevip="user/exchangevip";
-  static const applelogin="user/applelogin";
-  static const GET_ABOUTUS_DETAIL="user/getAboutusDetail";
-  static const GET_ADVERTISEMENT_LIST="user/getAdvertisementList";
+  static const GET_GOODS_COMMENT_LIST="goods/getGoodsCommentList";
+  static const GET_ISSUE_CONTENTS_BY_GOODS="goods/getIssueContentsByGoods";
+  static const GET_ISSUE_REPLY_BY_CONTENT="goods/getIssueReplyByContent";
+
+  static const ADD_ISSUE_REPLY="goods/addIssueReply";
+  static const ADD_ISSUE_CONTENT="goods/addIssueContent";
+  static const SELECT_WEEK_SGIN_IN="user/selectWeekSginIn";
+  static const SGIN_IN="user/sginIn";
+  static const GET_SGIN_IN_TASK_LIST="user/getSginInTaskList";
+  static const GET_ORDER_LIST="goods/getOrderList";
+  static const UPDATE_ORDER="goods/updateOrder";
+  static const ADD_PICTURE="image/addPicture";
+
+  static const ADD_COMMENT="goods/addComment";
+
+  static const GET_USER_INFO="user/getUserInfo";
+
+  static const GET_USER_TRAVEL_WALLET="user/getUserTravelWallet";
+
+  static const GET_TRAVEL_WALLET_LOG_LIST="user/getTravelWalletLogList";
+
+  static const GET_USER_INTEGRAL_COUNT="user/getUserIntegralCount";
+  static const GET_USER_INTEGRAL_LIST="user/getUserIntegralList";
+  static const GET_TRAVEL_SYSTEM_INFO_LIST="user/getTravelSystemInfoList";
+  static const GET_USER_RELATIONSHIP_LIST="user/getUserRelationshipList";
+
+  static const UPDATE_USER="user/updateUser";
+  static const GET_CUSTOMER_SERVICE_LIST="user/getCustomerServiceList";
+  static const FIND_PASSWORD="user/findPassword";
+
+  static const GET_USER_EQUITY_SHARES="user/getUserEquityShares";
+  static const UPLOAD_IMAGE="image/uploadImage";
+  static const GET_EQUITY_SHARE_RECORD_LIST="user/getEquityShareRecordList";
+  static const getuserbanklist="user/getuserbanklist";
+  static const GET_BANK_LIST="user/getBankList";
+  static const bindbankcard="user/bindbankcard";
+  static const DELETE_BANK="user/deleteBank";
+  static const WITHDRAW_DEPOSIT="user/withdrawDeposit";
+  static const recharge="user/recharge";
 
 }

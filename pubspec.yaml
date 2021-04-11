@@ -25,7 +25,7 @@ dependencies:
 
 
   # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
+  # Use with the CupertinoIcons class for iOS style icons.travelapp detectionapp
   cupertino_icons: ^0.1.2
   #颜色转换
   flutter_color_plugin: ^0.0.2
@@ -79,12 +79,15 @@ dependencies:
   shimmer: ^1.0.0
   #状态栏颜色
   flutter_statusbarcolor: any
-  #  multi_image_picker: ^4.5.5
+  multi_image_picker: ^4.5.5
   flutter_custom_bottom_tab_bar:
     git: https://github.com/LiuC520/flutter_custom_bottom_tab_bar.git
   #吐司
   fluttertoast:
     path: plugins/FlutterToast
+
+  flutter_image_compress:
+    path: plugins/flutter_image_compress
   #屏幕亮度调节
   screen: ^0.0.5
   flutter_datetime_picker: 1.3.8
@@ -99,15 +102,13 @@ dependencies:
   image_gallery_saver: ^1.2.2
   #  left_scroll_actions: ^1.5.3
   #微信分享
-  fluwx_no_pay: ^2.4.0+1
+#  fluwx_no_pay: ^2.4.0+1
   marquee_flutter: ^0.1.2
-  charts_flutter: ^0.9.0
   flutter_switch_plus: ^0.0.1
   md2_tab_indicator: ^1.0.2
   audioplayers: ^0.13.1
-  vibrate: ^0.0.4
-  #  flutter_alipay: "^1.0.0"
-  #  fluwx: ^2.5.0+1
+  flutter_alipay: "^1.0.0"
+  fluwx: ^2.5.0+1
   #国际化
   flutter_localizations:
     sdk: flutter
@@ -118,7 +119,10 @@ dependencies:
   url_launcher: ^5.2.7
   date_format: ^1.0.8
   sign_in_apple: ^0.0.1
-
+  azlistview: ^1.1.0
+  #环信IM
+  nim_plugin:
+    path: plugins/nim_plugin
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -136,8 +140,87 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #  - images/a_dot_burr.jpeg
+  assets:
+    - assets/bh_home_my.png
+    - assets/bh_home_my_no.png
+    - assets/bh_home_shouye.png
+    - assets/bh_home_shouye_no.png
+    - assets/bh_home_vip_yab.png
+    - assets/bh_home_vip_yab_no.png
+    - assets/bh_home_xianxia.png
+    - assets/bh_home_xianxia_no.png
+    - assets/bh_nanzhidu.png
+    - assets/bh_home_topbg.png
+    - assets/bh_home_lvxing.png
+    - assets/bh_home_lvxing.png
+    - assets/bh_home_cate.png
+    - assets/bh_home_search.png
+    - assets/bh_home_shanchu.png
+    - assets/bh_home_topbg.png
+    - assets/bh_home_rili.png
+    - assets/bh_home_xiala.png
+    - assets/bh_login_del.png
+    - assets/bh_topback_h.png
+    - assets/bh_topback_w.png
+    - assets/bh_goods_back.png
+    - assets/bh_goods_share.png
+    - assets/bh_goods_kefu.png
+    - assets/bh_goods_shoucang.png
+    - assets/bh_goods_jia.png
+    - assets/bh_goods_jiian.png
+    - assets/bh_mall_pay_weixuan.png
+    - assets/bh_mall_pay_yixuan.png
+    - assets/bh_mall_weixin.png
+    - assets/bh_mall_zhifubao.png
+    - assets/bh_issue_wen.png
+    - assets/bh_issue_dianzan.png
+    - assets/share_pengyou.png
+    - assets/share_weixin.png
+    - assets/cp_push_close_icon.png
+    - assets/share_qq.png
+    - assets/share_weibo.png
+    - assets/bh_my_bg.png
+    - assets/bh_my_setting.png
+    - assets/bh_mine_icon1.png
+    - assets/bh_mine_icon2.png
+    - assets/bh_mine_icon3.png
+    - assets/bh_mine_icon4.png
+    - assets/bh_mine_icon5.png
+    - assets/bh_mine_icon6.png
+    - assets/bh_mine_icon7.png
+    - assets/bh_mine_icon8.png
+    - assets/bh_mine_icon9.png
+    - assets/bh_mine_icon10.png
+    - assets/bh_mine_icon11.png
+    - assets/bh_mine_icon12.png
+    - assets/bh_mine_icon13.png
+    - assets/bh_tuiguang_bg.png
+    - assets/bh_sgin_bg.png
+    - assets/bh_sgin_right.png
+    - assets/bh_sgin_leiji.png
+    - assets/bh_sgin_hong.png
+    - assets/bh_sgin_no_hong.png
+    - assets/bh_sgin_yes_hong.png
+    - assets/bh_xing_weixuan.png
+    - assets/bh_xing_xuanzhong.png
+    - assets/cp_push_addimage.png
+    - assets/bh_vip_bg.png
+    - assets/bh_vip_bg2.png
+    - assets/bh_yue_bg.png
+    - assets/bh_set_guanyu.png
+    - assets/bh_set_kefu.png
+    - assets/bh_set_wenti.png
+    - assets/bh_set_xiazai.png
+    - assets/youjiantou.png
+    - assets/ic_launcher.png
+    - assets/data/china.json
+    - assets/data/contacts.json
+    - assets/nodata.png
+    - assets/bh_user_baseicon.png
+    - assets/bh_user_right.png
+    - assets/update_password.png
+    - assets/shanchu.png
+    - assets/tianjia_icon.png
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

@@ -1,5 +1,5 @@
 
-import 'package:divination_app/city_pickers/city_pickers.dart';
+import 'package:travelapp/city_pickers/city_pickers.dart';
 import 'package:lpinyin/lpinyin.dart';
 
 import '../meta/province.dart';

@@ -9,8 +9,8 @@
 
 import 'dart:async';
 
-import 'package:divination_app/city_pickers/city_pickers.dart';
-import 'package:divination_app/city_pickers/meta/province.dart';
+import 'package:travelapp/city_pickers/city_pickers.dart';
+import 'package:travelapp/city_pickers/meta/province.dart';
 import 'package:flutter/material.dart';
 
 import 'alpha.dart';
